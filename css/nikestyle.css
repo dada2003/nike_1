@@ -1,0 +1,84 @@
+body {
+    background-image: url(../img/main-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../img/group-3-copy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 686px;
+    height: 391px;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.82);
+    border-radius: 10px;
+    background-color: #111a28;
+    margin-top: 10%;
+}
+
+.logo {
+    margin: 21px 24px;
+}
+
+.boot {
+    float: left;
+}
+
+.right {
+    float: right;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+}
+.lis{
+    
+}
+
+.lis li {
+    margin-top: 10px;
+}
+
+.stars li {
+    display: inline-block;
+    color: white;
+}
+
+.stars li:hover {
+    color: yellow;
+}
+
+.form li {
+    display: inline-block;
+    
+}
+
+.form{
+ position: absolute; 
+    right: 100px;
+    display: inline;
+}
+form {
+    border: solid lightgray 1px;
+    text-align: center;
+    width: 69px;
+    height: 32px;
+    
+    
+}
+
+
